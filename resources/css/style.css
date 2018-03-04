@@ -4,7 +4,7 @@ body {
   font-weight: bold;
 }
 
-.header, .footer h2 {
+.header, .company-info h2 {
   background-image: url("../images/the-flatiron-building.png");
 }
 
@@ -12,7 +12,7 @@ body {
   height: 297px;
 }
 
-h1, a, .footer h2 {
+h1, a, .company-info h2, .footer {
   color: white;
 }
 
@@ -34,7 +34,7 @@ h2 {
   font-size: 32px;
 }
 
-.footer h2, h3 {
+.company-info h2, .footer, h3 {
   font-size: 23px;
 }
 
@@ -43,7 +43,12 @@ p {
   font-size: 14px;
 }
 
-nav {
-  padding: 0;
-  margin: 0;
+.footer, .footer h2 {
+  background-color: dimgray;
+  font-size: 11px;
+  text-align: left;
+}
+
+.footer ul li, .footer h2, .footer ul, .footer nav {
+  display: inline;
 }
